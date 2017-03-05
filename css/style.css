@@ -1,0 +1,255 @@
+body{
+	background-color: white;
+	margin: auto;
+	padding: 0 10px 30px 15px;
+	}
+	
+	/**Header**/
+#header-nav{
+background-color:  	#CD5C5C;
+border-radius: 0;
+border: 0;
+
+}
+
+	span{
+		text-decoration:none;
+		font-size: 40px;
+		/*color: 444444;*/
+
+	}
+	#Logo-img{
+		background: url(xxx/xxx/xx.jpg) no-repeat;
+	    color: white;
+		width: 30px;
+		margin:10px 15px 9px 0;
+	}
+
+	.page-heading{
+text-align: center;
+
+	}
+
+
+	/*.container{
+
+		width: 1200px;
+		margin: auto;
+		background: #fff;
+		box-shadow: 2px 10px 15px 10px
+	}*/
+
+	.header{
+		border-radius: 0;
+		padding: 4px 0 20px 40px;
+		background-color: red;
+	}
+	.navbar {
+		background: #3b7687;
+		border-radius: 5px;
+		padding: 6px 0 6px 40px;
+		
+	}
+	#home1{
+		font-size: 19px;
+	color: white;
+	}
+
+	.navbar a {
+		color: #c5d6db;
+		text-decoration: none;
+		font-size: 15px;
+		font-family: "Arial Narrow", "Myriad Pro";
+	}
+
+
+
+	.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+	.dropdown:hover .dropbtn {
+    background-color: #c5d6db;
+}
+	
+	#update{
+		text-align: center; 
+		color: red;
+		padding: 0 10px 2px 10px;
+	}
+
+	.Broadcast{
+		background-color: lightgreen;
+		font-size: 20px;
+		text-align: center; 
+		margin:  10px 0 5px 130px;
+		height: 30px;
+
+	}
+	aside{
+		float: left;
+		width: 120px;
+		padding: 30px 0 0 40px;
+	}
+	h1 {
+		margin: 0px;
+		color: #869843;
+		font-size: 24px;
+		font-family: "Arial", "Myriad Pro";
+		font-weight: normal;
+
+	}
+	h2{
+		color: #3b7687;
+		font-size: 15px;
+		margin: 20px 0 5px 0;
+	}
+
+	#main-content{
+		margin: 0 0 0 180px;
+		padding: 35px 40px 30px 0;
+		color: #444444;
+		font-family: "Georgia";
+		font-size: 13px;
+		line-height: 18px;
+		text-emphasis: justify;
+	}
+	.main a:hover{
+		color: #444444;
+
+	}
+	#home-image img{
+		width: 90%;
+
+
+
+	}
+
+	footer{
+		padding: 6px 40px 6px 40px;
+		background: #d6d6d6;
+	/*	font-family: "Lucia Sans Unicode";
+		color: #444444;
+		font-size: 11px;
+		text-decoration: right;*/
+	}
+	.footer a{
+		text-decoration: none;
+		color: #262626;
+	}
+	.separator{
+		color: black;
+		font-size: :15px;
+	}
+
+	.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #8B8386;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}	
+/*.btn{
+
+	background-color: #3b7687;
+
+  
+}
+*/
+
+/**************About page****************/
+
+	#about-page #home-image-img {
+		width: 70%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	#about-page #profile-info{
+		float: right;
+		width: 20%;
+		margin: 
+	}
+	#about-page .description{
+		clear: both;
+
+	}
+
+	/***************Contact page*****************/
+	#contact #form{
+width: 500px;
+padding: 10px 10px 10px 10px;
+margin: auto;
+box-shadow: 0px 9px 15px 5px;
+border-radius: 5px; 
+	}
+
+#contact #form input{
+	width: 490px;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6
+}
+#contact #form #message{
+	width: 490px;
+    border-radius: 5px;
+    height: 100px;
+    background: #D6D6D6
+}
+#contact #form #submit{
+	  height: 30px;
+    background: rgb(59,118,135);
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+#navlist:hover{
+	background-color: #20B2AA;
+}
+
+/**************Online market page****************/
+
+
+
+
+
+
+
+/**************End of Online market page****************/
+
+/**************Categories page****************/
+
+
+
+
+
+
+
+/**************End of Categories page****************/
